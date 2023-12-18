@@ -17,7 +17,7 @@ new Chart(myChart, {
       labels: idJugador, // eje x
       datasets: [
         {
-          label: "Rango de ID asigando por conferencia 2018",
+          label: "Conferencia 2018",
           data: calificaciones, // eje y
           borderWidth: 2,
           backgroundColor: ["red","blue","white"],
