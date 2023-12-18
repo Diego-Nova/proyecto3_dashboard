@@ -2,11 +2,11 @@ const myChart = document.getElementById("myChart");
 
 const pintarGrafica = (datoArray) => {
     const idJugador = datoArray.map((jugador) => {
-        return jugador.id;
+        return jugador.first_name;
     });
 
     const calificaciones = datoArray.map((jugador) => {
-        return jugador.home_team_score
+        return jugador.id;
         ;
         ;
     });
