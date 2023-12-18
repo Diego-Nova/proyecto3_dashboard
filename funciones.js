@@ -20,7 +20,7 @@ new Chart(myChart, {
           label: "Conferencia 2018",
           data: calificaciones, // eje y
           borderWidth: 2,
-          backgroundColor: ["red","blue","white"],
+          backgroundColor: ["red","blue","white","orange","green","black"],
         },
       ],
     },
